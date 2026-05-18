@@ -81,10 +81,11 @@ with st.sidebar:
     st.markdown(
         """
         **Course:** Information Security
-        **Project Type:** Final Year Project
-        **Author:** _<Your Name>_
-        **Supervisor:** _<Supervisor Name>_
-        **Institution:** _<Your University>_
+        **Project Type:** Final Course Project
+        **Author:** _Rubaisha Ahmed & Ibrahim Sial_
+        **Student ID:** _20221-33350 & 20211-30954_
+        **Instructor:** _Salman Akber_
+        **Institution:** _Institute of Business Management_
         """
     )
     st.markdown("---")
@@ -118,7 +119,7 @@ def _looks_like_encrypted(text: str) -> bool:
 # ---------------------------------------------------------------------------
 
 tab_encode, tab_decode, tab_capacity, tab_security, tab_about = st.tabs(
-    ["ENCODE", "DECODE", "CAPACITY CALCULATOR", "SECURITY ANALYSIS", "ABOUT"]
+    ["➤ ENCODE", "➤ DECODE", "➤ CAPACITY CALCULATOR", "➤ SECURITY ANALYSIS", "➤ ABOUT"]
 )
 
 
@@ -463,10 +464,10 @@ with tab_about:
         ```
 
         ### Author
-        - **Name:** _<Your Name>_
-        - **Roll number:** _<Your Roll Number>_
-        - **Supervisor:** _<Supervisor Name>_
-        - **Institution:** _<Your University>_
+        - **Name:** _Rubaisha Ahmed & Ibrahim Sial_
+        - **Roll number:** _20221-33350 & 20211-30954_
+        - **Instructor:** _Salman Akber_
+        - **Institution:** _Institute of Business Management_
 
         ### License
         Released under the MIT License. See ``LICENSE`` for full text.
