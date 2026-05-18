@@ -8,7 +8,7 @@ Run locally::
 
     streamlit run app.py
 
-Author: <Your Name>
+Author: Rubaisha Ahmed & Ibrahim Sial
 Course: Information Security – Final Year Project
 """
 
@@ -118,7 +118,7 @@ def _looks_like_encrypted(text: str) -> bool:
 # ---------------------------------------------------------------------------
 
 tab_encode, tab_decode, tab_capacity, tab_security, tab_about = st.tabs(
-    ["🔒 Encode", "🔓 Decode", "📏 Capacity Calculator", "🔬 Security Analysis", "ℹ️ About"]
+    ["ENCODE", "DECODE", "CAPACITY CALCULATOR", "SECURITY ANALYSIS", "ABOUT"]
 )
 
 
@@ -262,7 +262,7 @@ with tab_decode:
             type="password",
             key="decode_password",
         )
-        decode_clicked = st.button("🔓 Reveal message", type="primary", use_container_width=True)
+        decode_clicked = st.button("Reveal message", type="primary", use_container_width=True)
 
     with col_d_preview:
         if stego_file is not None:
