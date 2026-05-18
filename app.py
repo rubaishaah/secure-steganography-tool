@@ -80,12 +80,18 @@ with st.sidebar:
     st.markdown("---")
     st.markdown(
         """
-        **Course:** Information Security <br><br>
-        **Project Type:** Final Course Project <br><br>
-        **Author:** _Rubaisha Ahmed & Ibrahim Sial_ <br><br>
-        **Student ID:** _20221-33350 & 20211-30954_<br><br>
-        **Instructor:** _Salman Akber_ <br><br>
-        **Institution:** _Institute of Business Management_ <br><br>
+        **Course:** Information Security 
+        
+        **Project Type:** Final Course Project 
+        
+        **Author:** _Rubaisha Ahmed & Ibrahim Sial_ 
+        
+        **Student ID:** _20221-33350 & 20211-30954_
+        
+        **Instructor:** _Salman Akber_ 
+        
+        **Institution:** _Institute of Business Management_ 
+        
         """
     )
     st.markdown("---")
