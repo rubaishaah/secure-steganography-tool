@@ -119,7 +119,7 @@ def _looks_like_encrypted(text: str) -> bool:
 # ---------------------------------------------------------------------------
 
 tab_encode, tab_decode, tab_capacity, tab_security, tab_about = st.tabs(
-    ["➤ ENCODE    ", "➤ DECODE    ", "➤ CAPACITY CALCULATOR    ", "➤ SECURITY ANALYSIS    ", "➤ ABOUT    "]
+    ["➤ ENCODE", "  ➤ DECODE    ", "➤ CAPACITY CALCULATOR    ", "➤ SECURITY ANALYSIS    ", "➤ ABOUT    "]
 )
 
 
